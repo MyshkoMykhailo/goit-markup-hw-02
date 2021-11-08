@@ -24,11 +24,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-main-color);
 }
+
 /*-------------------header-----------------*/
+
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.1923;
   letter-spacing: 0.03em;
@@ -47,7 +49,6 @@ body {
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.02em;
-
   color: var(--website-navigation-base-color);
 }
 
@@ -62,6 +63,10 @@ body {
 
 .link:hover,
 .link:focus {
+  color: var(--website-navigation-hover-color);
+}
+
+.current {
   color: var(--website-navigation-hover-color);
 }
 
@@ -83,7 +88,6 @@ body {
   background: var(--hero-button-backgrund-color);
   box-shadow: var(--hero-button-box-shadow);
   border-radius: var(--button-box-radius);
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -112,7 +116,6 @@ body {
 }
 
 .advantages-list-item-head {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.03em;
@@ -124,13 +127,10 @@ body {
   font-size: 14px;
   line-height: 1.7143;
   letter-spacing: 0.03em;
-
-  color: var(--text-main-color);
 }
 
 /*-----------------what-we-do--------------------*/
 .what-we-do-head {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.6667;
   text-align: center;
@@ -144,7 +144,6 @@ body {
 
 /*----------------------team-------------------*/
 .team-head {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.6667;
   text-align: center;
@@ -170,8 +169,6 @@ body {
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: var(--text-main-color);
 }
 /*----------------------footer------------------*/
 .footer {
@@ -194,7 +191,7 @@ body {
 }
 
 .footer-contact {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-additional-color);
 }
 
 /*-----------------PORTFOLIO---------------------*/
@@ -223,7 +220,6 @@ body {
 }
 /*---------------portfolio-list----------------*/
 .portfolio-list-item-name {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -232,10 +228,6 @@ body {
 
 .portfolio-list-item-text {
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-
+  line-height: 1.875;
   letter-spacing: 0.03em;
-
-  color: var(--text-main-color);
 }
